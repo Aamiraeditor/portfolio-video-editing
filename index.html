@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Aamir A. - Video Editor Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body { background-color: #000; font-family: 'Poppins', sans-serif; color: #fff; }
+        header { background: black; padding: 2rem; text-align: center; color: white; }
+        h1 { font-size: 2.5rem; }
+        section { padding: 4rem 2rem; text-align: center; background: black; }
+        .white-box { background: white; color: black; padding: 2rem; border-radius: 10px; margin: 20px auto; max-width: 900px; }
+        .icons { margin-top: 10px; }
+        .icons i { font-size: 2rem; margin: 0 10px; color: #ff758c; }
+        .grid-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px; }
+        .grid-container img { width: 100%; height: auto; border-radius: 10px; border: 3px solid white; }
+        .animated-section { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+        .animated-section i { font-size: 3rem; margin-bottom: 10px; animation: bounce 1s infinite; }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aamir A.</h1>
+        <p>Professional Video Editor | Motion Graphics & Trend Research</p>
+        <div class="icons">
+            <i class="fa-brands fa-adobe"></i>
+            <i class="fa-brands fa-premiere-pro"></i>
+        </div>
+    </header>
+    
+    <section id="summary">
+        <div class="white-box">
+            <h2>About Me</h2>
+            <p>I am Aamir, a professional video editor with expertise in creating engaging content for social media platforms. My skills include Premiere Pro, After Effects, and Illustrator. I specialize in both short-form (Reels, TikToks, YouTube Shorts) and long-form video editing, ensuring high-quality visuals with seamless transitions, color grading, and motion graphics.</p>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="white-box">
+            <h2>Services</h2>
+            <ul class="list-group mx-auto" style="max-width: 600px;">
+                <li class="list-group-item">🎬 Short & Long-form Video Editing</li>
+                <li class="list-group-item">⚡ Motion Graphics & Animations</li>
+                <li class="list-group-item">🎨 Color Grading, Transitions & VFX</li>
+                <li class="list-group-item">📈 Trending Effects & Algorithm-Based Edits</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <div class="white-box">
+            <h2>Gallery</h2>
+            <div class="grid-container">
+                <img src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg" alt="Color Grading">
+                <img src="https://images.pexels.com/photos/30229850/pexels-photo-30229850.jpeg" alt="Video Editing">
+            </div>
+        </div>
+    </section>
+    
+    <section id="animated-portfolio">
+        <div class="white-box animated-section">
+            <i class="fa-solid fa-arrow-down"></i>
+            <h2>Check Out My Portfolio</h2>
+            <p>Click below to view my complete work</p>
+            <a href="https://drive.google.com/drive/folders/1_gUskeyn-u-GHaSn7jJin6EdkgjYCv2r?usp=sharing" target="_blank" class="btn btn-primary">View My Portfolio</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="white-box">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:abroaamir997@gmail.com">abroaamir997@gmail.com</a></p>
+        </div>
+    </section>
+</body>
+</html>
